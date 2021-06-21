@@ -1,6 +1,6 @@
 package School_textbook;
 
-public class ForExam2 {
+public class p42_ForExam2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
