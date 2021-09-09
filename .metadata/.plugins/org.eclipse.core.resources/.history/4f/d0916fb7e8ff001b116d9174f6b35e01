@@ -1,0 +1,20 @@
+package test2;
+
+public class main1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	public class student {
+		int stdid;
+		String stdnm;
+		int grade;
+		String add;
+		
+	}
+	public void showstdinfo() {
+		
+	}
+
+}
