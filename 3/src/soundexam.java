@@ -19,10 +19,11 @@ class tv implements sound {
 class radio implements  sound {
     private  int sndlevel;
     public radio() {
+
         sndlevel = 0;
     }
     public void soundup(int level) {
-        sndlevel += level
+        sndlevel += level;
     }
     public void sounddown(int level){
         sndlevel -= level;
@@ -36,7 +37,7 @@ public class soundexam {
     public static void main(String[] args) {
         sound radio = new radio();
         sound tv = new tv();
-        radio.soundup();
+        radio.soundup(5);
 
     }
 }
