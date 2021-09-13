@@ -48,6 +48,7 @@ public class Main {
 
         System.out.println("\n3\n");
 
+        //메서드 오버라이딩 적용 목적
         par p2 = new chi();
         System.out.println("p2.name : "+p2.name);
         System.out.println("p2.age : "+p2.age);
@@ -58,6 +59,8 @@ public class Main {
         System.out.println("\n4\n");
 
         par p3 = new chi();
+        p3.name = "부모님";
+        p3.impar = 3;
         chi c3 = (chi)p3;
         System.out.println("c3.name : "+c3.name);
         System.out.println("c3.age : "+c3.age);
