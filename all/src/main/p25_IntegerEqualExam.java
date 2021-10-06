@@ -1,7 +1,5 @@
 package main;
 
-import java.sql.SQLOutput;
-
 public class p25_IntegerEqualExam {
     public static void main(String[] args) {
         Integer in1 = new Integer(100);
