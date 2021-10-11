@@ -47,7 +47,7 @@ public class p69_sungEataMain {
     public static void main(String[] args) {
     sungDataExam wd = new sungDataExam();
         try {
-            wd.ReadingData("TextFile/writed.txt");
+            wd.ReadingData("writed.txt");
         }catch (IOException e) {
             e.printStackTrace();
         }
