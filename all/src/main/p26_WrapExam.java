@@ -14,5 +14,6 @@ public class p26_WrapExam {
         System.out.println(wrapi.toString()+wrapd.toString());
 
 
+
     }
 }

@@ -15,6 +15,8 @@ public class p19 {
         System.out.println("2 sb1 :"+sb1);
         System.out.println("2 sb2 :"+sb2);
         System.out.println();
+
+
         str2 = sb2.append(sb2);
         System.out.println("3 str1 : "+str1);
         System.out.println("3 str2 : "+str2);

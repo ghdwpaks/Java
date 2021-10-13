@@ -2,15 +2,20 @@ package edit;
 
 import java.io.*;
 
-public class BufferedInputExam {
+public class InputReaderExam {
     public static void main(String[] args) {
-        try (Reader is = new InputStreamReader(new BufferedInputStream(new FileInputStream("large_in.txt")))){
+
+        try {
+
+            FileInputStream fis = new FileInputStream("in.txt");
+            Reader reader = new InputStreamReader(fis);
             while(true){
-                int i = is.read();
+                int i = reader.read();
                 if (i == -1) break;
                 char c = (char) i;
                 System.out.print(c);
             }
+            reader.close();
         } catch (IOException e) {
             System.err.println(e);
         }
