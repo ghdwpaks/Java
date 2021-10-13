@@ -1,10 +1,8 @@
 package main;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 
-public class p51_InputExam {
+public class p51 {
     public static void streamTest(InputStream is) {
         System.out.println("InputStream is :"+is);
 

@@ -2,7 +2,7 @@ package main;
 
 import java.io.IOException;
 
-public class p44_Echo1Exam {
+public class p44 {
     public static void main(String[] args) {
         int bt;
         while (true) {

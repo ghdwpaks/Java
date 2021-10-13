@@ -2,7 +2,7 @@ package main;
 
 import java.io.IOException;
 
-public class p52_ReadFromSysExam {
+public class p52 {
     public static void main(String[] args) {
         while (true) {
 
