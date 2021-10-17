@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class p52 {
     public static void main(String[] args) {
+
         while (true) {
 
 

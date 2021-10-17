@@ -23,6 +23,21 @@ public class p51 {
         }
     }
     public static void main(String[] args) {
+        BufferedInputStream bt = new BufferedInputStream(System.in);
+        System.out.println("bt : "+bt);
+        try {
+            System.out.println("1");
+
+            System.out.println("bt.read() : "+ bt.read());
+
+            System.out.println("bt.read() : "+ bt.read());
+            System.out.println("2");
+        }catch (Exception e) {
+            System.out.println(e);
+        }
+
+
         streamTest(System.in);
     }
 }
+
