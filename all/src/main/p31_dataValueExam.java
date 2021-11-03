@@ -22,6 +22,9 @@ public class p31_dataValueExam {
         System.out.println(name+"\t"+address+"\t"+math+"\t"+english+"\t"+total
         +"\t"+avg);
 
+        System.out.println("");
+        System.out.println("StringTokenizer parse : "+parse);
+
 
 
 
